@@ -1,0 +1,6 @@
+@JwtAuthApi_Sonnet45_HostAddress = http://localhost:5020
+
+GET {{JwtAuthApi_Sonnet45_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

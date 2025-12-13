@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "5T1RJ3Cx3rE7q3GXVhgROfOmdNhhrp0RgDFlkpDjpGw=",
+  "Source": "JwtAuthApi-Sonnet45",
+  "BasePath": "_content/JwtAuthApi-Sonnet45",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

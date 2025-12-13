@@ -1,0 +1,19 @@
+---- 7/12/25 ----
+[Route("api/[controller]")]
+    + Là các lấy tên các class mà đánh dấu attribute này có hậu tố ..Controller, vd: 
+        [Route("api/[controller]")] // api/Auth
+        [ApiController]
+        public class AuthController : ControllerBase{...}
+
+[HttpPost("register")] // api/Auth/register
+
+Tương tự, có thể dùng [action] cho tên method:
+[Route("[action]")] // sẽ thành tên method như GetData, Register, etc.
+Đây là cách viết dynamic để không phải hard-code tên route.
+
+---- 8/12/25 ----
+Users (1) <---> (n) Devices (1) <---> (n) RefreshTokens
++ Một User có nhiều Thiết bị.
++ Một Thiết bị có thể có nhiều dòng RefreshToken (lịch sử), nhưng thường chỉ có 1 token active.
+
+----

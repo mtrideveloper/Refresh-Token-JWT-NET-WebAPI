@@ -1,0 +1,17 @@
+---- 7/12/25 ----
+TOKEN ERROR: Microsoft.IdentityModel.Tokens.SecurityTokenMalformedException: IDX14100: JWT is not well formed, there are no dots (.).
+The token needs to be in JWS or JWE Compact Serialization Format. (JWS): 'EncodedHeader.EndcodedPayload.EncodedSignature'. (JWE): 'EncodedProtectedHeader.EncodedEncryptedKey.EncodedInitializationVector.EncodedCiphertext.EncodedAuthenticationTag'.
+---> System.MissingMethodException: Method not found: 'Byte[] Microsoft.IdentityModel.Tokens.Base64UrlEncoder.UnsafeDecode(System.ReadOnlyMemory`1<Char>)'.
+at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(String encodedJson)
+at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString)
+at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+--- End of inner exception stack trace ---
+[10:40:31 INF] Completed GET /api/v1/Auth/profile with status 401 in 47ms
+
+[CAUSE]
+* Lệch version giữa các gói Microsoft.IdentityModel.* và JwtBearer.
+-> Thử đưa về cùng version, vd: 
+    dotnet add package Microsoft.IdentityModel.Tokens --version 8.0.3
+    dotnet add package System.IdentityModel.Tokens.Jwt --version 8.0.3
+
+----
