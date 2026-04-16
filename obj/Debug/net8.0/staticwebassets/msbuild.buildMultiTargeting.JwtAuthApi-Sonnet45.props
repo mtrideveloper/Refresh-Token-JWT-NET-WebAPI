@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\JwtAuthApi-Sonnet45.props" />
-</Project>

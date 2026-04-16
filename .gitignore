@@ -1,0 +1,81 @@
+# ------------------------------
+# Build output
+# ------------------------------
+[Bb]in/
+[Oo]bj/
+out/
+publish/
+
+# ------------------------------
+# User-specific files
+# ------------------------------
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ------------------------------
+# IDE/editor folders
+# ------------------------------
+.vs/
+.vscode/
+.idea/
+
+# ------------------------------
+# Logs and diagnostics
+# ------------------------------
+*.log
+logs/
+
+# ------------------------------
+# Test/coverage artifacts
+# ------------------------------
+TestResults/
+*.trx
+coverage/
+coverage-*/
+*.coverage
+*.coveragexml
+
+# ------------------------------
+# NuGet / packages
+# ------------------------------
+*.nupkg
+*.snupkg
+
+# ------------------------------
+# Local database/cache artifacts
+# ------------------------------
+*.mdf
+*.ldf
+*.db
+
+# ------------------------------
+# Environment and secrets (local only)
+# ------------------------------
+.env
+.env.*
+secrets.json
+appsettings.Local.json
+appsettings.*.local.json
+appsettings.*.secret.json
+
+# Keep canonical appsettings files in source control
+!appsettings.json
+!appsettings.Development.json
+
+# ------------------------------
+# OS generated files
+# ------------------------------
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ------------------------------
+# Temporary files
+# ------------------------------
+*.tmp
+*.temp
+*.bak
+*.orig
