@@ -1,0 +1,27 @@
+---- 16/04/26
+POST /api/v1/Auth/register
+{
+  "username": "gakpo",
+  "email": "gakpo@liverpool.fc",
+  "password": "Abcd1234@",
+  "confirmPassword": "Abcd1234@"
+}
+response:
+{
+  "accessToken": "........",
+  "refreshToken": ".........==",
+  "expiresAt": "2026-04-23T08:30:13.7156356Z",
+  "tokenType": "Bearer",
+  "user": {
+    "id": "USER_03004",
+    "username": "gakpo",
+    "email": "gakpo@liverpool.fc",
+    "isActive": true,
+    "emailConfirmed": false,
+    "lastLoginAt": null,
+    "roles": [
+      "User"
+    ]
+  }
+}
+

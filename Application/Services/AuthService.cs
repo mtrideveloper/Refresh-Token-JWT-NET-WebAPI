@@ -112,6 +112,8 @@ public class AuthService : IAuthService
 
     public async Task<TokenResponse> RefreshTokenAsync(string refreshToken, string ipAddress)
     {
+        _logger.LogInformation("DEBUG: Received RefreshToken: [{Token}]", refreshToken);
+
         var token = await _tokenService.GetActiveRefreshTokenAsync(refreshToken);
 
         // If no match with provided userId, try by refresh token only (client may not know userId when access token expired)

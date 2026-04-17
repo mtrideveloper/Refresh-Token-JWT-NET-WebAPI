@@ -1,0 +1,337 @@
+2026-04-17 15:25:13.132 +07:00 [INF] Application starting...
+2026-04-17 15:25:13.353 +07:00 [INF] Now listening on: http://localhost:5020
+2026-04-17 15:25:13.356 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-17 15:25:13.356 +07:00 [INF] Hosting environment: Development
+2026-04-17 15:25:13.356 +07:00 [INF] Content root path: D:\Dotnet\webapi\Githubs\Refresh-Token-JWT-NET-WebAPI
+2026-04-17 15:25:27.979 +07:00 [INF] Incoming GET request to /api/v1/Auth/profile from 127.0.0.1
+2026-04-17 15:25:27.985 +07:00 [WRN] Failed to determine the https port for redirect.
+2026-04-17 15:25:28.653 +07:00 [INF] Completed GET /api/v1/Auth/profile with status 401 in 676ms
+2026-04-17 15:26:00.951 +07:00 [INF] Incoming POST request to /api/v1/Auth/register from 127.0.0.1
+2026-04-17 15:26:01.010 +07:00 [INF] User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0
+2026-04-17 15:26:01.330 +07:00 [INF] User mtri registered successfully
+2026-04-17 15:26:01.335 +07:00 [INF] Access token generated for user mtri
+2026-04-17 15:26:01.444 +07:00 [INF] User mtri registered 127.0.0.1
+2026-04-17 15:26:01.478 +07:00 [INF] Completed POST /api/v1/Auth/register with status 201 in 527ms
+2026-04-17 15:36:21.186 +07:00 [INF] Incoming GET request to /api/v1/Auth/profile from 127.0.0.1
+2026-04-17 15:36:21.228 +07:00 [INF] Completed GET /api/v1/Auth/profile with status 401 in 42ms
+2026-04-17 15:36:45.590 +07:00 [INF] Incoming POST request to /api/v1/Auth/refresh-token from 127.0.0.1
+2026-04-17 15:36:46.242 +07:00 [WRN] Invalid refresh token attempt
+2026-04-17 15:36:46.247 +07:00 [INF] Completed POST /api/v1/Auth/refresh-token with status 401 in 656ms
+2026-04-17 15:37:42.168 +07:00 [INF] Incoming POST request to /api/v1/Auth/refresh-token from 127.0.0.1
+2026-04-17 15:37:42.241 +07:00 [WRN] Invalid refresh token attempt
+2026-04-17 15:37:42.242 +07:00 [INF] Completed POST /api/v1/Auth/refresh-token with status 401 in 73ms
+2026-04-17 15:42:55.561 +07:00 [INF] Incoming POST request to /api/v1/Auth/login from 127.0.0.1
+2026-04-17 15:42:55.891 +07:00 [INF] User mtri logged in successfully
+2026-04-17 15:42:55.891 +07:00 [INF] Access token generated for user mtri
+2026-04-17 15:42:55.927 +07:00 [INF] Completed POST /api/v1/Auth/login with status 200 in 366ms
+2026-04-17 15:43:18.556 +07:00 [INF] Incoming GET request to /api/v1/Auth/profile from 127.0.0.1
+2026-04-17 15:43:18.571 +07:00 [INF] Completed GET /api/v1/Auth/profile with status 401 in 15ms
+2026-04-17 15:44:13.851 +07:00 [INF] Incoming GET request to /api/v1/Auth/profile from 127.0.0.1
+2026-04-17 15:44:13.853 +07:00 [INF] Completed GET /api/v1/Auth/profile with status 401 in 2ms
+2026-04-17 15:46:01.256 +07:00 [INF] Incoming GET request to /api/v1/Auth/profile from 127.0.0.1
+2026-04-17 15:46:01.259 +07:00 [INF] Completed GET /api/v1/Auth/profile with status 401 in 3ms
+2026-04-17 15:46:03.510 +07:00 [INF] Incoming GET request to /api/v1/Auth/profile from 127.0.0.1
+2026-04-17 15:46:03.512 +07:00 [INF] Completed GET /api/v1/Auth/profile with status 401 in 1ms
+2026-04-17 15:48:42.634 +07:00 [INF] Incoming POST request to /api/v1/Auth/refresh-token from 127.0.0.1
+2026-04-17 15:48:42.954 +07:00 [WRN] Invalid refresh token attempt
+2026-04-17 15:48:42.955 +07:00 [INF] Completed POST /api/v1/Auth/refresh-token with status 401 in 320ms
+2026-04-17 15:49:24.367 +07:00 [INF] Application is shutting down...
+2026-04-17 15:49:41.689 +07:00 [INF] Application starting...
+2026-04-17 15:49:41.782 +07:00 [INF] Now listening on: http://localhost:5020
+2026-04-17 15:49:41.784 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-17 15:49:41.785 +07:00 [INF] Hosting environment: Development
+2026-04-17 15:49:41.785 +07:00 [INF] Content root path: D:\Dotnet\webapi\Githubs\Refresh-Token-JWT-NET-WebAPI
+2026-04-17 15:49:53.973 +07:00 [INF] Incoming POST request to /api/v1/Auth/refresh-token from 127.0.0.1
+2026-04-17 15:49:53.975 +07:00 [WRN] Failed to determine the https port for redirect.
+2026-04-17 15:49:54.231 +07:00 [WRN] Invalid refresh token attempt
+2026-04-17 15:49:54.242 +07:00 [INF] Completed POST /api/v1/Auth/refresh-token with status 401 in 273ms
+2026-04-17 15:53:28.143 +07:00 [INF] Incoming POST request to /api/v1/Auth/refresh-token from 127.0.0.1
+2026-04-17 15:53:28.273 +07:00 [WRN] Invalid refresh token attempt
+2026-04-17 15:53:28.274 +07:00 [INF] Completed POST /api/v1/Auth/refresh-token with status 401 in 131ms
+2026-04-17 15:53:50.725 +07:00 [INF] Incoming GET request to /api/v1/Auth/profile from 127.0.0.1
+2026-04-17 15:53:50.734 +07:00 [INF] Completed GET /api/v1/Auth/profile with status 401 in 9ms
+2026-04-17 15:54:11.067 +07:00 [INF] Incoming POST request to /api/v1/Auth/refresh-token from 127.0.0.1
+2026-04-17 15:54:11.145 +07:00 [WRN] Invalid refresh token attempt
+2026-04-17 15:54:11.146 +07:00 [INF] Completed POST /api/v1/Auth/refresh-token with status 401 in 79ms
+2026-04-17 15:57:28.042 +07:00 [INF] Incoming POST request to /api/v1/Auth/refresh-token from 127.0.0.1
+2026-04-17 15:57:28.048 +07:00 [INF] DEBUG: Received RefreshToken: [6hJBEQ2BEZm17GIQjkemV6TJGggRGvK6C0yB6hXtJgo4MZclAkiziXAdOsuom4IcY1MGic7Xg+VVrqKe3na9NA==]
+2026-04-17 15:57:28.356 +07:00 [WRN] Invalid refresh token attempt
+2026-04-17 15:57:28.357 +07:00 [INF] Completed POST /api/v1/Auth/refresh-token with status 401 in 315ms
+2026-04-17 16:01:50.887 +07:00 [INF] Application starting...
+2026-04-17 16:01:50.983 +07:00 [INF] Now listening on: http://localhost:5020
+2026-04-17 16:01:50.986 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-17 16:01:50.986 +07:00 [INF] Hosting environment: Development
+2026-04-17 16:01:50.986 +07:00 [INF] Content root path: D:\Dotnet\webapi\Githubs\Refresh-Token-JWT-NET-WebAPI
+2026-04-17 16:02:22.482 +07:00 [INF] Incoming POST request to /api/v1/Auth/refresh-token from 127.0.0.1
+2026-04-17 16:02:22.484 +07:00 [WRN] Failed to determine the https port for redirect.
+2026-04-17 16:02:22.540 +07:00 [INF] DEBUG: Received RefreshToken: [6hJBEQ2BEZm17GIQjkemV6TJGggRGvK6C0yB6hXtJgo4MZclAkiziXAdOsuom4IcY1MGic7Xg+VVrqKe3na9NA==]
+2026-04-17 16:02:22.902 +07:00 [ERR] Token refresh error
+System.InvalidOperationException: Refresh token is invalid or already revoked
+   at JwtAuthApi_Sonnet45.Application.Services.TokenService.RevokeRefreshTokenAsync(String token, String reason) in D:\Dotnet\webapi\Githubs\Refresh-Token-JWT-NET-WebAPI\Application\Services\TokenService.cs:line 119
+   at JwtAuthApi_Sonnet45.Application.Services.AuthService.RefreshTokenAsync(String refreshToken, String ipAddress) in D:\Dotnet\webapi\Githubs\Refresh-Token-JWT-NET-WebAPI\Application\Services\AuthService.cs:line 136
+   at JwtAuthApi_Sonnet45.Presentation.Controllers.AuthController.RefreshToken(RefreshTokenRequest request) in D:\Dotnet\webapi\Githubs\Refresh-Token-JWT-NET-WebAPI\Presentation\Controllers\AuthController.cs:line 126
+2026-04-17 16:02:22.929 +07:00 [INF] Completed POST /api/v1/Auth/refresh-token with status 500 in 449ms
+2026-04-17 16:07:04.599 +07:00 [INF] Application is shutting down...
+2026-04-17 16:07:17.748 +07:00 [INF] Application starting...
+2026-04-17 16:07:17.828 +07:00 [INF] Now listening on: http://localhost:5020
+2026-04-17 16:07:17.830 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-17 16:07:17.830 +07:00 [INF] Hosting environment: Development
+2026-04-17 16:07:17.830 +07:00 [INF] Content root path: D:\Dotnet\webapi\Githubs\Refresh-Token-JWT-NET-WebAPI
+2026-04-17 16:07:31.185 +07:00 [INF] Incoming POST request to /api/v1/Auth/refresh-token from 127.0.0.1
+2026-04-17 16:07:31.188 +07:00 [WRN] Failed to determine the https port for redirect.
+2026-04-17 16:07:31.247 +07:00 [INF] DEBUG: Received RefreshToken: [6hJBEQ2BEZm17GIQjkemV6TJGggRGvK6C0yB6hXtJgo4MZclAkiziXAdOsuom4IcY1MGic7Xg+VVrqKe3na9NA==]
+2026-04-17 16:07:31.458 +07:00 [WRN] Invalid refresh token attempt
+2026-04-17 16:07:31.469 +07:00 [INF] Completed POST /api/v1/Auth/refresh-token with status 401 in 285ms
+2026-04-17 16:09:56.370 +07:00 [INF] Application starting...
+2026-04-17 16:09:56.530 +07:00 [INF] Now listening on: http://localhost:5020
+2026-04-17 16:09:56.535 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-17 16:09:56.536 +07:00 [INF] Hosting environment: Development
+2026-04-17 16:09:56.536 +07:00 [INF] Content root path: D:\Dotnet\webapi\Githubs\Refresh-Token-JWT-NET-WebAPI
+2026-04-17 16:10:16.493 +07:00 [INF] Incoming POST request to /api/v1/Auth/refresh-token from 127.0.0.1
+2026-04-17 16:10:16.495 +07:00 [WRN] Failed to determine the https port for redirect.
+2026-04-17 16:10:16.557 +07:00 [INF] DEBUG: Received RefreshToken: [6hJBEQ2BEZm17GIQjkemV6TJGggRGvK6C0yB6hXtJgo4MZclAkiziXAdOsuom4IcY1MGic7Xg+VVrqKe3na9NA==]
+2026-04-17 16:10:16.773 +07:00 [WRN] Invalid refresh token attempt
+2026-04-17 16:10:16.785 +07:00 [INF] Completed POST /api/v1/Auth/refresh-token with status 401 in 296ms
+2026-04-17 16:11:49.544 +07:00 [INF] Incoming POST request to /api/v1/Auth/refresh-token from 127.0.0.1
+2026-04-17 16:11:49.549 +07:00 [INF] DEBUG: Received RefreshToken: [6hJBEQ2BEZm17GIQjkemV6TJGggRGvK6C0yB6hXtJgo4MZclAkiziXAdOsuom4IcY1MGic7Xg+VVrqKe3na9NA==]
+2026-04-17 16:11:49.660 +07:00 [WRN] Invalid refresh token attempt
+2026-04-17 16:11:49.661 +07:00 [INF] Completed POST /api/v1/Auth/refresh-token with status 401 in 117ms
+2026-04-17 16:15:15.071 +07:00 [INF] Application is shutting down...
+2026-04-17 20:38:56.368 +07:00 [INF] Application starting...
+2026-04-17 20:38:56.483 +07:00 [INF] Now listening on: http://localhost:5020
+2026-04-17 20:38:56.486 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-17 20:38:56.486 +07:00 [INF] Hosting environment: Development
+2026-04-17 20:38:56.486 +07:00 [INF] Content root path: D:\Dotnet\webapi\Githubs\Refresh-Token-JWT-NET-WebAPI
+2026-04-17 20:41:08.203 +07:00 [INF] Incoming POST request to /api/v1/Auth/refresh-token from 127.0.0.1
+2026-04-17 20:41:08.208 +07:00 [WRN] Failed to determine the https port for redirect.
+2026-04-17 20:41:08.942 +07:00 [INF] DEBUG: Received RefreshToken: [6hJBEQ2BEZm17GIQjkemV6TJGggRGvK6C0yB6hXtJgo4MZclAkiziXAdOsuom4IcY1MGic7Xg+VVrqKe3na9NA==]
+2026-04-17 20:41:08.983 +07:00 [ERR] Token refresh error
+System.InvalidOperationException: The LINQ expression 'DbSet<RefreshToken>()
+    .Where(r => TokenService.CheckTokenExpired(
+        rt: r, 
+        token: __token_0))' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.FirstOrDefaultAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at JwtAuthApi_Sonnet45.Application.Services.TokenService.GetActiveRefreshTokenAsync(String token) in D:\Dotnet\webapi\Githubs\Refresh-Token-JWT-NET-WebAPI\Application\Services\TokenService.cs:line 105
+   at JwtAuthApi_Sonnet45.Application.Services.AuthService.RefreshTokenAsync(String refreshToken, String ipAddress) in D:\Dotnet\webapi\Githubs\Refresh-Token-JWT-NET-WebAPI\Application\Services\AuthService.cs:line 117
+   at JwtAuthApi_Sonnet45.Presentation.Controllers.AuthController.RefreshToken(RefreshTokenRequest request) in D:\Dotnet\webapi\Githubs\Refresh-Token-JWT-NET-WebAPI\Presentation\Controllers\AuthController.cs:line 126
+2026-04-17 20:41:09.001 +07:00 [INF] Completed POST /api/v1/Auth/refresh-token with status 500 in 801ms
+2026-04-17 20:44:54.854 +07:00 [INF] Application starting...
+2026-04-17 20:44:54.940 +07:00 [INF] Now listening on: http://localhost:5020
+2026-04-17 20:44:54.942 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-17 20:44:54.943 +07:00 [INF] Hosting environment: Development
+2026-04-17 20:44:54.943 +07:00 [INF] Content root path: D:\Dotnet\webapi\Githubs\Refresh-Token-JWT-NET-WebAPI
+2026-04-17 20:45:05.362 +07:00 [INF] Incoming POST request to /api/v1/Auth/refresh-token from 127.0.0.1
+2026-04-17 20:45:05.365 +07:00 [WRN] Failed to determine the https port for redirect.
+2026-04-17 20:45:05.430 +07:00 [INF] DEBUG: Received RefreshToken: [6hJBEQ2BEZm17GIQjkemV6TJGggRGvK6C0yB6hXtJgo4MZclAkiziXAdOsuom4IcY1MGic7Xg+VVrqKe3na9NA==]
+2026-04-17 20:45:05.893 +07:00 [INF] Tìm thấy 1 refresh token với token = 6hJBEQ2BEZm17GIQjkemV6TJGggRGvK6C0yB6hXtJgo4MZclAkiziXAdOsuom4IcY1MGic7Xg+VVrqKe3na9NA==
+2026-04-17 20:45:05.895 +07:00 [INF] RefreshToken Id: REFRESHTOKEN_08750 | Token khớp: true | Chưa thu hồi: true | Chưa hết hạn: true | ExpiresAt: "2026-04-17T15:42:55.8918120+07:00" | Now: "2026-04-17T13:45:05.4325898Z"
+2026-04-17 20:45:06.132 +07:00 [INF] Refresh token 6hJBEQ2BEZm17GIQjkemV6TJGggRGvK6C0yB6hXtJgo4MZclAkiziXAdOsuom4IcY1MGic7Xg+VVrqKe3na9NA== 
+                                revoked for user USER_08160
+2026-04-17 20:45:06.132 +07:00 [INF] Old refresh token 6hJBEQ2BEZm17GIQjkemV6TJGggRGvK6C0yB6hXtJgo4MZclAkiziXAdOsuom4IcY1MGic7Xg+VVrqKe3na9NA== revoked for user mtri
+2026-04-17 20:45:06.138 +07:00 [INF] Access token generated for user mtri
+2026-04-17 20:45:06.243 +07:00 [INF] Token refreshed for user mtri
+2026-04-17 20:45:06.259 +07:00 [INF] Completed POST /api/v1/Auth/refresh-token with status 200 in 901ms
+2026-04-17 20:46:04.832 +07:00 [INF] Application starting...
+2026-04-17 20:46:04.925 +07:00 [INF] Now listening on: http://localhost:5020
+2026-04-17 20:46:04.928 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-17 20:46:04.928 +07:00 [INF] Hosting environment: Development
+2026-04-17 20:46:04.928 +07:00 [INF] Content root path: D:\Dotnet\webapi\Githubs\Refresh-Token-JWT-NET-WebAPI
+2026-04-17 20:46:36.150 +07:00 [INF] Incoming POST request to /api/v1/Auth/refresh-token from 127.0.0.1
+2026-04-17 20:46:36.153 +07:00 [WRN] Failed to determine the https port for redirect.
+2026-04-17 20:46:36.212 +07:00 [INF] DEBUG: Received RefreshToken: [6hJBEQ2BEZm17GIQjkemV6TJGggRGvK6C0yB6hXtJgo4MZclAkiziXAdOsuom4IcY1MGic7Xg+VVrqKe3na9NA==]
+2026-04-17 20:46:36.255 +07:00 [ERR] Token refresh error
+System.InvalidOperationException: The LINQ expression 'DbSet<RefreshToken>()
+    .Where(r => TokenService.CheckTokenExpired(
+        rt: r, 
+        token: __token_0))' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.QueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.RelationalQueryableMethodTranslatingExpressionVisitor.Translate(Expression expression)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass12_0`1.<ExecuteAsync>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteAsync[TResult](Expression query, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.ExecuteAsync[TResult](Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, Expression expression, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ExecuteAsync[TSource,TResult](MethodInfo operatorMethodInfo, IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.FirstOrDefaultAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at JwtAuthApi_Sonnet45.Application.Services.TokenService.GetActiveRefreshTokenAsync(String token) in D:\Dotnet\webapi\Githubs\Refresh-Token-JWT-NET-WebAPI\Application\Services\TokenService.cs:line 105
+   at JwtAuthApi_Sonnet45.Application.Services.AuthService.RefreshTokenAsync(String refreshToken, String ipAddress) in D:\Dotnet\webapi\Githubs\Refresh-Token-JWT-NET-WebAPI\Application\Services\AuthService.cs:line 117
+   at JwtAuthApi_Sonnet45.Presentation.Controllers.AuthController.RefreshToken(RefreshTokenRequest request) in D:\Dotnet\webapi\Githubs\Refresh-Token-JWT-NET-WebAPI\Presentation\Controllers\AuthController.cs:line 126
+2026-04-17 20:46:36.275 +07:00 [INF] Completed POST /api/v1/Auth/refresh-token with status 500 in 127ms
+2026-04-17 20:47:06.921 +07:00 [INF] Application is shutting down...
+2026-04-17 20:48:08.983 +07:00 [INF] Application starting...
+2026-04-17 20:48:09.067 +07:00 [INF] Now listening on: http://localhost:5020
+2026-04-17 20:48:09.070 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-17 20:48:09.070 +07:00 [INF] Hosting environment: Development
+2026-04-17 20:48:09.070 +07:00 [INF] Content root path: D:\Dotnet\webapi\Githubs\Refresh-Token-JWT-NET-WebAPI
+2026-04-17 20:48:21.084 +07:00 [INF] Incoming POST request to /api/v1/Auth/refresh-token from 127.0.0.1
+2026-04-17 20:48:21.086 +07:00 [WRN] Failed to determine the https port for redirect.
+2026-04-17 20:48:21.147 +07:00 [INF] DEBUG: Received RefreshToken: [6hJBEQ2BEZm17GIQjkemV6TJGggRGvK6C0yB6hXtJgo4MZclAkiziXAdOsuom4IcY1MGic7Xg+VVrqKe3na9NA==]
+2026-04-17 20:48:21.416 +07:00 [WRN] Invalid refresh token attempt
+2026-04-17 20:48:21.427 +07:00 [INF] Completed POST /api/v1/Auth/refresh-token with status 401 in 344ms
+2026-04-17 20:56:37.040 +07:00 [INF] Application is shutting down...
+2026-04-17 21:01:30.861 +07:00 [INF] Application starting...
+2026-04-17 21:01:30.939 +07:00 [INF] Now listening on: http://localhost:5020
+2026-04-17 21:01:30.942 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-17 21:01:30.942 +07:00 [INF] Hosting environment: Development
+2026-04-17 21:01:30.942 +07:00 [INF] Content root path: D:\Dotnet\webapi\Githubs\Refresh-Token-JWT-NET-WebAPI
+2026-04-17 21:03:44.410 +07:00 [INF] Incoming POST request to /api/v1/Auth/login from 127.0.0.1
+2026-04-17 21:03:44.413 +07:00 [WRN] Failed to determine the https port for redirect.
+2026-04-17 21:03:45.010 +07:00 [INF] User mtri logged in successfully
+2026-04-17 21:03:45.017 +07:00 [INF] Access token generated for user mtri
+2026-04-17 21:03:45.195 +07:00 [INF] Completed POST /api/v1/Auth/login with status 200 in 788ms
+2026-04-17 21:04:28.272 +07:00 [INF] Incoming POST request to /api/v1/Auth/refresh-token from 127.0.0.1
+2026-04-17 21:04:28.284 +07:00 [INF] DEBUG: Received RefreshToken: [Kxw+5I9oLXh2hXb8pG0Y65sKRDdRH/yjKDE684nAI1OI/LRIyb7+X0dsAf9cUK/wUxWNxmJmaX0kqszS2uOfZQ==]
+2026-04-17 21:04:28.551 +07:00 [INF] Refresh token Kxw+5I9oLXh2hXb8pG0Y65sKRDdRH/yjKDE684nAI1OI/LRIyb7+X0dsAf9cUK/wUxWNxmJmaX0kqszS2uOfZQ== 
+                                revoked for user USER_08160
+2026-04-17 21:04:28.551 +07:00 [INF] Old refresh token Kxw+5I9oLXh2hXb8pG0Y65sKRDdRH/yjKDE684nAI1OI/LRIyb7+X0dsAf9cUK/wUxWNxmJmaX0kqszS2uOfZQ== revoked for user mtri
+2026-04-17 21:04:28.551 +07:00 [INF] Access token generated for user mtri
+2026-04-17 21:04:28.604 +07:00 [INF] Token refreshed for user mtri
+2026-04-17 21:04:28.605 +07:00 [INF] Completed POST /api/v1/Auth/refresh-token with status 200 in 332ms
+2026-04-17 21:06:06.174 +07:00 [INF] Incoming POST request to /api/v1/Auth/register from 127.0.0.1
+2026-04-17 21:06:06.178 +07:00 [ERR] Exception occurred while processing message.
+System.MissingMethodException: Attempted to invoke a deleted lambda or local function implementation. This can happen when lambda or local function is deleted while the application is running.
+   at Program.<>c.<<Main>$>b__0_9(MessageReceivedContext context)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerEvents.MessageReceived(MessageReceivedContext context)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2026-04-17 21:06:06.183 +07:00 [INF] Completed POST /api/v1/Auth/register with status 200 in 8ms
+2026-04-17 21:06:06.184 +07:00 [ERR] An unhandled exception occurred
+System.MissingMethodException: Attempted to invoke a deleted lambda or local function implementation. This can happen when lambda or local function is deleted while the application is running.
+   at Program.<>c.<<Main>$>b__0_10(AuthenticationFailedContext context)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerEvents.AuthenticationFailed(AuthenticationFailedContext context)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at JwtAuthApi_Sonnet45.Middlewares.RequestLoggingMiddleware.InvokeAsync(HttpContext context)
+   at JwtAuthApi_Sonnet45.Middlewares.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context)
+2026-04-17 21:07:59.649 +07:00 [INF] Incoming POST request to /api/v1/Auth/register from 127.0.0.1
+2026-04-17 21:07:59.650 +07:00 [ERR] Exception occurred while processing message.
+System.MissingMethodException: Attempted to invoke a deleted lambda or local function implementation. This can happen when lambda or local function is deleted while the application is running.
+   at Program.<>c.<<Main>$>b__0_9(MessageReceivedContext context)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerEvents.MessageReceived(MessageReceivedContext context)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2026-04-17 21:07:59.650 +07:00 [INF] Completed POST /api/v1/Auth/register with status 200 in 1ms
+2026-04-17 21:07:59.650 +07:00 [ERR] An unhandled exception occurred
+System.MissingMethodException: Attempted to invoke a deleted lambda or local function implementation. This can happen when lambda or local function is deleted while the application is running.
+   at Program.<>c.<<Main>$>b__0_10(AuthenticationFailedContext context)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerEvents.AuthenticationFailed(AuthenticationFailedContext context)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at JwtAuthApi_Sonnet45.Middlewares.RequestLoggingMiddleware.InvokeAsync(HttpContext context)
+   at JwtAuthApi_Sonnet45.Middlewares.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context)
+2026-04-17 21:10:09.384 +07:00 [INF] Incoming POST request to /api/v1/Auth/register from 127.0.0.1
+2026-04-17 21:10:09.384 +07:00 [ERR] Exception occurred while processing message.
+System.MissingMethodException: Attempted to invoke a deleted lambda or local function implementation. This can happen when lambda or local function is deleted while the application is running.
+   at Program.<>c.<<Main>$>b__0_9(MessageReceivedContext context)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerEvents.MessageReceived(MessageReceivedContext context)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2026-04-17 21:10:09.385 +07:00 [INF] Completed POST /api/v1/Auth/register with status 200 in 0ms
+2026-04-17 21:10:09.385 +07:00 [ERR] An unhandled exception occurred
+System.MissingMethodException: Attempted to invoke a deleted lambda or local function implementation. This can happen when lambda or local function is deleted while the application is running.
+   at Program.<>c.<<Main>$>b__0_10(AuthenticationFailedContext context)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerEvents.AuthenticationFailed(AuthenticationFailedContext context)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at JwtAuthApi_Sonnet45.Middlewares.RequestLoggingMiddleware.InvokeAsync(HttpContext context)
+   at JwtAuthApi_Sonnet45.Middlewares.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context)
+2026-04-17 21:12:31.971 +07:00 [INF] Incoming POST request to /api/v1/Auth/register from 127.0.0.1
+2026-04-17 21:12:31.972 +07:00 [ERR] Exception occurred while processing message.
+System.MissingMethodException: Attempted to invoke a deleted lambda or local function implementation. This can happen when lambda or local function is deleted while the application is running.
+   at Program.<>c.<<Main>$>b__0_9(MessageReceivedContext context)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerEvents.MessageReceived(MessageReceivedContext context)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2026-04-17 21:12:31.973 +07:00 [INF] Completed POST /api/v1/Auth/register with status 200 in 1ms
+2026-04-17 21:12:31.973 +07:00 [ERR] An unhandled exception occurred
+System.MissingMethodException: Attempted to invoke a deleted lambda or local function implementation. This can happen when lambda or local function is deleted while the application is running.
+   at Program.<>c.<<Main>$>b__0_10(AuthenticationFailedContext context)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerEvents.AuthenticationFailed(AuthenticationFailedContext context)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at JwtAuthApi_Sonnet45.Middlewares.RequestLoggingMiddleware.InvokeAsync(HttpContext context)
+   at JwtAuthApi_Sonnet45.Middlewares.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context)
+2026-04-17 21:15:57.441 +07:00 [INF] Incoming POST request to /api/v1/Auth/register from 127.0.0.1
+2026-04-17 21:15:57.442 +07:00 [ERR] Exception occurred while processing message.
+System.MissingMethodException: Attempted to invoke a deleted lambda or local function implementation. This can happen when lambda or local function is deleted while the application is running.
+   at Program.<>c.<<Main>$>b__0_9(MessageReceivedContext context)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerEvents.MessageReceived(MessageReceivedContext context)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2026-04-17 21:15:57.443 +07:00 [INF] Completed POST /api/v1/Auth/register with status 200 in 1ms
+2026-04-17 21:15:57.443 +07:00 [ERR] An unhandled exception occurred
+System.MissingMethodException: Attempted to invoke a deleted lambda or local function implementation. This can happen when lambda or local function is deleted while the application is running.
+   at Program.<>c.<<Main>$>b__0_10(AuthenticationFailedContext context)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerEvents.AuthenticationFailed(AuthenticationFailedContext context)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.AuthenticateAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at JwtAuthApi_Sonnet45.Middlewares.RequestLoggingMiddleware.InvokeAsync(HttpContext context)
+   at JwtAuthApi_Sonnet45.Middlewares.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context)
+2026-04-17 21:16:53.218 +07:00 [INF] Application is shutting down...
+2026-04-17 21:17:14.924 +07:00 [INF] Application starting...
+2026-04-17 21:17:15.007 +07:00 [INF] Now listening on: http://localhost:5020
+2026-04-17 21:17:15.010 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-17 21:17:15.010 +07:00 [INF] Hosting environment: Development
+2026-04-17 21:17:15.010 +07:00 [INF] Content root path: D:\Dotnet\webapi\Githubs\Refresh-Token-JWT-NET-WebAPI
+2026-04-17 21:17:26.486 +07:00 [INF] Incoming POST request to /api/v1/Auth/register from 127.0.0.1
+2026-04-17 21:17:26.490 +07:00 [WRN] Failed to determine the https port for redirect.
+2026-04-17 21:17:26.550 +07:00 [INF] User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0
+2026-04-17 21:17:27.305 +07:00 [INF] User dybala registered successfully
+2026-04-17 21:17:27.310 +07:00 [INF] Access token generated for user dybala
+2026-04-17 21:17:27.454 +07:00 [INF] User dybala registered 127.0.0.1
+2026-04-17 21:17:27.486 +07:00 [INF] Completed POST /api/v1/Auth/register with status 201 in 1003ms
+2026-04-17 21:19:50.270 +07:00 [INF] Incoming POST request to /api/v1/Auth/login from 127.0.0.1
+2026-04-17 21:19:50.553 +07:00 [INF] User dybala logged in successfully
+2026-04-17 21:19:50.554 +07:00 [INF] Access token generated for user dybala
+2026-04-17 21:19:50.705 +07:00 [INF] Completed POST /api/v1/Auth/login with status 200 in 435ms
+2026-04-17 21:20:34.945 +07:00 [INF] Incoming POST request to /api/v1/Auth/login from 127.0.0.1
+2026-04-17 21:20:35.081 +07:00 [INF] User dybala logged in successfully
+2026-04-17 21:20:35.081 +07:00 [INF] Access token generated for user dybala
+2026-04-17 21:20:35.193 +07:00 [INF] Completed POST /api/v1/Auth/login with status 200 in 248ms
+2026-04-17 21:21:04.918 +07:00 [INF] Incoming POST request to /api/v1/Auth/login from 127.0.0.1
+2026-04-17 21:21:05.152 +07:00 [INF] User dybala logged in successfully
+2026-04-17 21:21:05.152 +07:00 [INF] Access token generated for user dybala
+2026-04-17 21:21:05.264 +07:00 [INF] Completed POST /api/v1/Auth/login with status 200 in 345ms
+2026-04-17 21:21:47.496 +07:00 [INF] Incoming POST request to /api/v1/Auth/login from 127.0.0.1
+2026-04-17 21:21:47.615 +07:00 [INF] User dybala logged in successfully
+2026-04-17 21:21:47.616 +07:00 [INF] Access token generated for user dybala
+2026-04-17 21:21:47.731 +07:00 [INF] Completed POST /api/v1/Auth/login with status 200 in 235ms
+2026-04-17 21:22:16.605 +07:00 [INF] Incoming GET request to /api/v1/Auth/profile from 127.0.0.1
+2026-04-17 21:22:16.663 +07:00 [INF] Completed GET /api/v1/Auth/profile with status 200 in 57ms
+2026-04-17 21:27:00.599 +07:00 [INF] Incoming GET request to /api/v1/Auth/profile from 127.0.0.1
+2026-04-17 21:27:00.614 +07:00 [INF] Completed GET /api/v1/Auth/profile with status 401 in 14ms
+2026-04-17 21:27:19.295 +07:00 [INF] Incoming POST request to /api/v1/Auth/refresh-token from 127.0.0.1
+2026-04-17 21:27:19.306 +07:00 [INF] DEBUG: Received RefreshToken: [6t6OwG5nTYlAqv+TDErI12E5iqh90uPiL8KHpL1IMp3/TdSoxsr/7xgj6TI5uRDVjlQEf1+PUysxCsThoxgd1g==]
+2026-04-17 21:27:20.501 +07:00 [INF] Refresh token 6t6OwG5nTYlAqv+TDErI12E5iqh90uPiL8KHpL1IMp3/TdSoxsr/7xgj6TI5uRDVjlQEf1+PUysxCsThoxgd1g== 
+                                revoked for user USER_02292
+2026-04-17 21:27:20.501 +07:00 [INF] Old refresh token 6t6OwG5nTYlAqv+TDErI12E5iqh90uPiL8KHpL1IMp3/TdSoxsr/7xgj6TI5uRDVjlQEf1+PUysxCsThoxgd1g== revoked for user dybala
+2026-04-17 21:27:20.501 +07:00 [INF] Access token generated for user dybala
+2026-04-17 21:27:20.605 +07:00 [INF] Token refreshed for user dybala
+2026-04-17 21:27:20.606 +07:00 [INF] Completed POST /api/v1/Auth/refresh-token with status 200 in 1310ms
+2026-04-17 21:27:44.259 +07:00 [INF] Incoming GET request to /api/v1/Auth/profile from 127.0.0.1
+2026-04-17 21:27:44.264 +07:00 [INF] Completed GET /api/v1/Auth/profile with status 200 in 5ms
+2026-04-17 21:28:51.009 +07:00 [INF] Application is shutting down...

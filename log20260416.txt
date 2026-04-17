@@ -1,0 +1,50 @@
+2026-04-16 14:27:55.270 +07:00 [INF] Application starting...
+2026-04-16 14:27:55.488 +07:00 [INF] Now listening on: http://localhost:5020
+2026-04-16 14:27:55.492 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-16 14:27:55.492 +07:00 [INF] Hosting environment: Development
+2026-04-16 14:27:55.493 +07:00 [INF] Content root path: D:\Dotnet\webapi\Githubs\Refresh-Token-JWT-NET-WebAPI
+2026-04-16 15:30:12.353 +07:00 [INF] Incoming POST request to /api/v1/Auth/register from 127.0.0.1
+2026-04-16 15:30:12.363 +07:00 [WRN] Failed to determine the https port for redirect.
+2026-04-16 15:30:13.134 +07:00 [INF] User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0
+2026-04-16 15:30:13.705 +07:00 [INF] User gakpo registered successfully
+2026-04-16 15:30:13.714 +07:00 [INF] Access token generated for user gakpo
+2026-04-16 15:30:13.791 +07:00 [INF] User gakpo registered 127.0.0.1
+2026-04-16 15:30:13.836 +07:00 [INF] Completed POST /api/v1/Auth/register with status 201 in 1491ms
+2026-04-16 15:32:03.288 +07:00 [INF] Incoming POST request to /api/v1/Auth/login from 127.0.0.1
+2026-04-16 15:32:03.464 +07:00 [INF] Completed POST /api/v1/Auth/login with status 401 in 176ms
+2026-04-16 15:32:11.970 +07:00 [INF] Incoming POST request to /api/v1/Auth/login from 127.0.0.1
+2026-04-16 15:32:12.016 +07:00 [INF] User gakpo logged in successfully
+2026-04-16 15:32:12.017 +07:00 [INF] Access token generated for user gakpo
+2026-04-16 15:32:12.026 +07:00 [INF] Completed POST /api/v1/Auth/login with status 200 in 56ms
+2026-04-16 15:32:19.181 +07:00 [INF] Incoming POST request to /api/v1/Auth/login from 127.0.0.1
+2026-04-16 15:32:19.219 +07:00 [INF] User gakpo logged in successfully
+2026-04-16 15:32:19.219 +07:00 [INF] Access token generated for user gakpo
+2026-04-16 15:32:19.222 +07:00 [INF] Completed POST /api/v1/Auth/login with status 200 in 40ms
+2026-04-16 15:32:23.139 +07:00 [INF] Incoming POST request to /api/v1/Auth/login from 127.0.0.1
+2026-04-16 15:32:23.163 +07:00 [INF] User gakpo logged in successfully
+2026-04-16 15:32:23.164 +07:00 [INF] Access token generated for user gakpo
+2026-04-16 15:32:23.167 +07:00 [INF] Completed POST /api/v1/Auth/login with status 200 in 28ms
+2026-04-16 15:32:28.707 +07:00 [INF] Incoming POST request to /api/v1/Auth/login from 127.0.0.1
+2026-04-16 15:32:28.727 +07:00 [INF] User gakpo logged in successfully
+2026-04-16 15:32:28.727 +07:00 [INF] Access token generated for user gakpo
+2026-04-16 15:32:28.731 +07:00 [INF] Completed POST /api/v1/Auth/login with status 200 in 24ms
+2026-04-16 15:33:02.509 +07:00 [INF] Incoming POST request to /api/v1/Auth/login from 127.0.0.1
+2026-04-16 15:33:02.541 +07:00 [INF] User gakpo logged in successfully
+2026-04-16 15:33:02.541 +07:00 [INF] Access token generated for user gakpo
+2026-04-16 15:33:02.548 +07:00 [INF] Completed POST /api/v1/Auth/login with status 200 in 38ms
+2026-04-16 15:33:50.266 +07:00 [INF] Incoming GET request to /api/v1/Auth/profile from 127.0.0.1
+2026-04-16 15:33:50.274 +07:00 [INF] Completed GET /api/v1/Auth/profile with status 401 in 9ms
+2026-04-16 15:35:35.637 +07:00 [INF] Incoming GET request to /api/v1/Auth/profile from 127.0.0.1
+2026-04-16 15:35:35.688 +07:00 [INF] Completed GET /api/v1/Auth/profile with status 200 in 51ms
+2026-04-16 15:39:18.050 +07:00 [INF] Incoming GET request to /api/v1/Auth/profile from 127.0.0.1
+2026-04-16 15:39:18.071 +07:00 [INF] Completed GET /api/v1/Auth/profile with status 401 in 20ms
+2026-04-16 15:39:56.000 +07:00 [INF] Incoming POST request to /api/v1/Auth/refresh-token from 127.0.0.1
+2026-04-16 15:39:56.094 +07:00 [INF] Refresh token CRtgtH7yVmK6lBkimaTcRPr9ig11ce6pUykUOwQ4YxOjXAo1MSRyJEI5WdTltKBPs5NxHF+ppMvep93i/bwqdQ== 
+                                revoked for user USER_03004
+2026-04-16 15:39:56.094 +07:00 [INF] Old refresh token CRtgtH7yVmK6lBkimaTcRPr9ig11ce6pUykUOwQ4YxOjXAo1MSRyJEI5WdTltKBPs5NxHF+ppMvep93i/bwqdQ== revoked for user gakpo
+2026-04-16 15:39:56.094 +07:00 [INF] Access token generated for user gakpo
+2026-04-16 15:39:56.099 +07:00 [INF] Token refreshed for user gakpo
+2026-04-16 15:39:56.100 +07:00 [INF] Completed POST /api/v1/Auth/refresh-token with status 200 in 99ms
+2026-04-16 15:40:34.018 +07:00 [INF] Incoming GET request to /api/v1/Auth/profile from 127.0.0.1
+2026-04-16 15:40:34.020 +07:00 [INF] Completed GET /api/v1/Auth/profile with status 200 in 1ms
+2026-04-16 15:53:24.481 +07:00 [INF] Application is shutting down...

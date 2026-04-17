@@ -1,17 +1,17 @@
 using JwtAuthApi_Sonnet45.Application.Services;
 using JwtAuthApi_Sonnet45.Data;
-using JwtAuthApi_Sonnet45.Domain.Entities;
 using JwtAuthApi_Sonnet45.Middlewares;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.RateLimiting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Serilog;
-using System.IdentityModel.Tokens.Jwt;
 using System.Text;
 using System.Threading.RateLimiting;
+
+
+// AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -35,7 +35,7 @@ builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 // Add DbContext with connection string
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // Configure CORS
 builder.Services.AddCors(options =>
@@ -50,7 +50,10 @@ builder.Services.AddCors(options =>
 });
 
 // Configure JWT Authentication
-var jwtSettings = builder.Configuration.GetSection("JwtSettings");
+var jwtSettings = builder.Configuration.GetSection("RefreshTokenJwtSettings");
+
+var keyFromConfig = jwtSettings["Key"];
+Console.WriteLine($"DEBUG JWT KEY: {keyFromConfig}");
 
 builder.Services.AddAuthentication(options =>
 {
@@ -199,6 +202,7 @@ app.UseMiddleware<ExceptionHandlingMiddleware>();
 app.UseMiddleware<RequestLoggingMiddleware>();
 
 app.UseHttpsRedirection();
+
 // app.UseResponseCompression();
 app.UseCors("AllowSpecificOrigins");
 app.UseRateLimiter();

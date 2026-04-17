@@ -45,7 +45,7 @@ public class TokenService : ITokenService
         }
         .Union(roleClaims);
 
-        var jwtSettings = _configuration.GetSection("JwtSettings");
+        var jwtSettings = _configuration.GetSection("RefreshTokenJwtSettings");
 
         var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtSettings["Key"]));
         var credentials = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
@@ -78,7 +78,7 @@ public class TokenService : ITokenService
 
     public async Task<RefreshToken> CreateRefreshTokenAsync(User user, string ipAddress)
     {
-        var jwtSettings = _configuration.GetSection("JwtSettings");
+        var jwtSettings = _configuration.GetSection("RefreshTokenJwtSettings");
         var expirationDays = Convert.ToInt32(jwtSettings["RefreshTokenExpirationDays"]);
 
         var refreshToken = new RefreshToken
@@ -110,16 +110,16 @@ public class TokenService : ITokenService
         var refreshToken = await _context.RefreshTokens
             .Include(rt => rt.User) // thêm navigation properties User
                     .ThenInclude(u => u.UserRoles) // và UserRoles
-                        .ThenInclude(ur => ur.Role) 
+                        .ThenInclude(ur => ur.Role)
             .FirstOrDefaultAsync(rt => rt.Token == token);
-            // .FirstOrDefaultAsync(rt => rt.Token == token && rt.UserId == userId);
+        // .FirstOrDefaultAsync(rt => rt.Token == token && rt.UserId == userId);
 
         if (refreshToken == null || !refreshToken.IsActive)
             throw new InvalidOperationException("Refresh token is invalid or already revoked");
-        
+
         if (refreshToken.User == null)
             throw new InvalidOperationException($"No user associated, refreshTokenId {refreshToken.Id}");
-        
+
         refreshToken.IsRevoked = true;
         refreshToken.RevokedAt = DateTime.UtcNow;
         refreshToken.UpdatedAt = DateTime.UtcNow;
@@ -133,9 +133,9 @@ public class TokenService : ITokenService
 
     public async Task RevokeAllUserTokensAsync(string userId, string reason = "All tokens revoked")
     {
-         var tokens = await _context.RefreshTokens
-            .Where(rt => rt.User.Id == userId && rt.IsActive)
-            .ToListAsync();
+        var tokens = await _context.RefreshTokens
+           .Where(rt => rt.User.Id == userId && rt.IsActive)
+           .ToListAsync();
 
         foreach (var token in tokens)
         {
